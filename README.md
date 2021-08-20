@@ -11,7 +11,9 @@ This program is written with a few assumptions.
    2. The certificate authority is running on a RHEL-based Linux system (tested on CentOS 7)
       a. Should work on Debian-based systems as well
    3. Your intermediate certificate authority is structured as described in https://jamielinux.com/docs/openssl-certificate-authority/index.html
+      
       a. The only exception is to use the openssl.cnf file from this repo instead of the one in Jamie's guide (I added a few things to make it suitable for enterprise deployments)
+      
       b. Your directory structure MUST be the same
 
 **Instructions:**
